@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+:root {
+  /* Primary */
+  --very-dark-blue: #090b1a; /* main background */
+  --dark-desaturated-blue: #1b1938; /* card background */
+  --soft-violet: #aa5cdb; /* accent */
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%); /* main heading, stats */
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /* main paragraph */
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.6); /* stat headings */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+}
+.text-box {
+}
+.header {
+}
+.header-highlight {
+}
+.discription {
+}
+.features-list {
+}
+.features-highlight {
+}
+.img {
+}
