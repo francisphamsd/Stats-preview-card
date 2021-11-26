@@ -28,7 +28,6 @@ p {
   font-size: 15px;
   line-height: 1.6;
 }
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -42,19 +41,14 @@ p {
   margin: 90px 20px;
   border-radius: 10px;
   overflow: hidden;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 
 .img-box {
-  background-image: linear-gradient(
-      rgba(170, 92, 219, 0.5),
-      rgba(170, 92, 219, 0.5)
-    ),
-    url("./images/image-header-mobile.jpg");
-
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradien(
+    rgba(170, 92, 219, 0.5),
+    rgba(170, 92, 219, 0.5),
+    url("./images/image-header-mobile.jpg")
+  );
 }
 
 .text-box {
